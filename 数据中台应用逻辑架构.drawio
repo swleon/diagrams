@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-14T05:28:45.636Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="nxJYKDOwH0F0mF9SEEnk" version="16.2.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-14T05:36:40.868Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="qr37m2ih40bOwxzT0PKK" version="16.2.6" type="github">
   <diagram id="0DkvYxW-jrH4pXN9hQSn" name="Page-1">
-    <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -21,7 +21,7 @@
         <mxCell id="krKJFWs0MbuUQecWiT6b-3" value="大数据-适配层" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="80" y="500" width="640" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="krKJFWs0MbuUQecWiT6b-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="krKJFWs0MbuUQecWiT6b-4">
+        <mxCell id="krKJFWs0MbuUQecWiT6b-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.003;exitY=0.777;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="krKJFWs0MbuUQecWiT6b-4" target="krKJFWs0MbuUQecWiT6b-49">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="760" y="305.1" as="targetPoint" />
           </mxGeometry>
@@ -121,16 +121,19 @@
           <mxGeometry x="760" y="197.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="krKJFWs0MbuUQecWiT6b-49" value="&lt;b&gt;日志中心&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="760" y="280" width="120" height="60" as="geometry" />
+          <mxGeometry x="760" y="360" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="krKJFWs0MbuUQecWiT6b-50" value="&lt;b&gt;运维告警中心&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="760" y="370" width="120" height="60" as="geometry" />
+          <mxGeometry x="760" y="440" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="krKJFWs0MbuUQecWiT6b-53" value="应用引擎中心" style="whiteSpace=wrap;html=1;aspect=fixed;fontStyle=1;verticalAlign=top;fillColor=#E6E6E6;" vertex="1" parent="1">
           <mxGeometry x="150" y="330" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="krKJFWs0MbuUQecWiT6b-54" value="activiti&lt;br&gt;&lt;br&gt;drools" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="170" y="360" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="krKJFWs0MbuUQecWiT6b-57" value="&lt;b&gt;xxl-job&lt;/b&gt;&lt;br&gt;应用分布式调度" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="280" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
